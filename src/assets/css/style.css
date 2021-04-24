@@ -1,0 +1,64 @@
+.slideshow {
+    width: auto;
+    height: 60px;
+	background-color: #303842;
+    color: #2c894d;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.slideshow > .icon {
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+    background-color: #0e111a;
+    color: white;
+    padding: 10px;
+}
+
+.pagination {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.pagination > .btn {
+    height: 30px;
+    width: 80px;
+    background-color: #199e42;
+    color: white;
+    margin-right: 20px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+.pagination > .btn:disabled {
+    background-color: #c5f4d5;
+    color: #b7dac8;
+}
+
+.pagination > .btn:active {
+    border-color: #8bcc9f;
+}
+
+.diapositiva {
+    width: 600px;
+    height: 300px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0px 0px 2px 2px #e5e8eb;
+}
+
+.diapositiva > .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.diapositiva > .text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
